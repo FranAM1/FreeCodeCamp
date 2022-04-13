@@ -3,4 +3,4 @@ Aqui iré subiendo las diferentes cosas que aprenda en la pagina freeCodeCamp <b
 [Mi perfil](https://www.freecodecamp.org/Rind0u)
 
 # Responsive Web Design
-1- Project 1: [Build a Tribute Page](https://codepen.io/franam1/full/jOYvYQv)
+1. [Build a Tribute Page](https://codepen.io/franam1/full/jOYvYQv)
