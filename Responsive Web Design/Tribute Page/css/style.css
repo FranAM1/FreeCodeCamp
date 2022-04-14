@@ -80,3 +80,16 @@ footer{
     font-size: 1.7rem;
     margin: 20px 0;
 }
+
+@media (max-width: 678px){
+    #quote{
+        width: 50%;
+        font-size: 1.6rem;
+    }
+
+    #tribute-info > ul{
+        width: 50%;
+        font-size: 1.6rem;
+    }
+    
+}
