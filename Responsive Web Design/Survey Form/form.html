@@ -12,5 +12,54 @@
         <h1 id="title">freeCodeCamp Survey Form</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
     </header>
+    <main>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" id="name" name="name" class="box" placeholder="Enter your name" required>
+        
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" name="email" class="box" placeholder="Enter your email" required>
+
+            <label id="number-label" for="age">Age <span class="clue">(optional)</span></label>
+            <input type="number" id="age" name="age" class="box" placeholder="Age" min="10" max="99">
+
+            <p>Which option best describes your current role?</p>
+            <select class="box" id="dropdown" required>
+                <option disabled selected >Select current role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="preferNo">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label><input type="radio" class="input-radio-checkbox" name="userRecommend" value="definitely" checked></input>Definietly</label>
+            <label><input type="radio" class="input-radio-checkbox" name="userRecommend" value="maybe"></input>Maybe</label>
+            <label><input type="radio" class="input-radio-checkbox" name="userRecommend" value="not-sure"></input>Not sure</label>
+            <br>
+
+            <p>What is your favorite feature of freeCodeCamp?</p>
+            <select class="box" id="mostLike" required>
+                <option disabled selected>Select an option</option>
+                <option value="student">Challenges</option>
+                <option value="job">Projects</option>
+                <option value="learner">Community</option>
+                <option value="preferNo">Opne source</option>
+            </select>
+
+            <p>What would you like to see improved? <span class="clue">(Check all that apply)</span></p>
+            <label><input type="checkbox" class="input-radio-checkbox" name="prefer" value="back-end-projects"></input>Back-end Projects</label>
+            <label><input type="checkbox" class="input-radio-checkbox" name="prefer" value="front-end-projects"></input>Front-end Projects</label>
+            <label><input type="checkbox" class="input-radio-checkbox" name="prefer" value="dataVisualization"></input>Data Visualization</label>
+            <label><input type="checkbox" class="input-radio-checkbox" name="prefer" value="videos"></input>Videos</label>
+            <br>
+
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" placeholder="Enter your comment here..." class="box"></textarea>
+
+            <button type="submit" id="submit" class="box">Submit</button>
+        </form>
+    </main>
 </body>
 </html>
