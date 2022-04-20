@@ -4,5 +4,5 @@ Aqui iré subiendo las diferentes cosas que aprenda en la pagina freeCodeCamp <b
 [Perfil codepen](https://codepen.io/franam1)
 
 # Responsive Web Design
-1. [Build a Tribute Page](https://codepen.io/franam1/full/jOYvYQv)
-2. [Build a Survey Form](https://codepen.io/franam1/full/eYyxayj)
+1. [Build a Tribute Page](https://codepen.io/franam1/full/jOYvYQv) (Un poco responsive)
+2. [Build a Survey Form](https://codepen.io/franam1/full/eYyxayj) (No responsive)
